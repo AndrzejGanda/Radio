@@ -1,6 +1,6 @@
 package com.company;
 
-public interface Possibilities {
+public interface RadioStation {
     void play();
     void stop();
 }

@@ -1,10 +1,14 @@
 package com.company;
 
-public class SecondRadioStation extends Radio implements Possibilities{
-
+public class SecondRadioStation implements RadioStation {
+    private final String songName;
 
     public SecondRadioStation(String songName) {
-        super(songName);
+        this.songName = songName;
+    }
+
+    public String getSongName() {
+        return songName;
     }
 
     @Override
